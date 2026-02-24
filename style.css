@@ -122,6 +122,44 @@ a:hover {
     color: #1a1a2e;
 }
 
+/* ── Skills ──────────────────────────────────────────── */
+.skills h3 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #777;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+.skills h3:first-of-type {
+    margin-top: 0;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill {
+    background: #eef3fb;
+    color: #1a1a2e;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    border: 1px solid #d4dff0;
+    transition: all 0.2s;
+}
+
+.skill:hover {
+    background: #1a6ed8;
+    color: #ffffff;
+    border-color: #1a6ed8;
+}
+
 /* ── Experience ──────────────────────────────────────── */
 .experience-item {
     margin-bottom: 22px;
@@ -155,47 +193,103 @@ a:hover {
     font-style: italic;
 }
 
-.experience-item p {
-    margin-top: 8px;
+.experience-item ul {
+    margin-top: 10px;
+    padding-left: 18px;
+    list-style: none;
+}
+
+.experience-item li {
     font-size: 0.9rem;
     color: #555;
     line-height: 1.65;
+    margin-bottom: 6px;
+    position: relative;
+    padding-left: 14px;
 }
 
-/* ── Skills ──────────────────────────────────────────── */
-.skills-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.skill {
-    background: #eef3fb;
-    color: #1a1a2e;
-    padding: 6px 14px;
-    border-radius: 20px;
-    font-size: 0.82rem;
-    font-weight: 500;
-    border: 1px solid #d4dff0;
-    transition: all 0.2s;
-}
-
-.skill:hover {
+.experience-item li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
     background: #1a6ed8;
-    color: #ffffff;
+}
+
+.experience-item li:last-child {
+    margin-bottom: 0;
+}
+
+/* ── Projects ────────────────────────────────────────── */
+.project-item {
+    margin-bottom: 28px;
+    padding: 20px 24px;
+    background: #f8f9fb;
+    border-radius: 8px;
+    border: 1px solid #e8eaed;
+    transition: border-color 0.2s;
+}
+
+.project-item:hover {
     border-color: #1a6ed8;
 }
 
-/* ── Key Contributions ───────────────────────────────── */
-.open-source p {
-    font-size: 0.9rem;
-    color: #555;
-    margin-bottom: 8px;
-    padding-left: 4px;
-    line-height: 1.65;
+.project-item:last-child {
+    margin-bottom: 0;
 }
 
-.open-source p:last-child {
+.project-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.project-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.project-name {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #1a1a2e;
+}
+
+.project-description {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.65;
+    margin-bottom: 12px;
+}
+
+.project-tech,
+.project-role {
+    font-size: 0.85rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.project-tech b,
+.project-role b {
+    color: #1a1a2e;
+}
+
+.project-role:last-child,
+.project-tech:last-child {
     margin-bottom: 0;
 }
 
@@ -224,6 +318,12 @@ a:hover {
         print-color-adjust: exact;
     }
 
+    .project-number {
+        background: #1a1a2e !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
     .skill:hover {
         background: #eef3fb;
         color: #1a1a2e;
@@ -232,6 +332,10 @@ a:hover {
 
     .experience-item:hover {
         border-left-color: #e0e4ea;
+    }
+
+    .project-item:hover {
+        border-color: #e8eaed;
     }
 }
 
@@ -261,5 +365,9 @@ a:hover {
 
     .header h1 {
         font-size: 1.6rem;
+    }
+
+    .project-item {
+        padding: 16px 18px;
     }
 }
