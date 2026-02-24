@@ -50,6 +50,22 @@ a:hover {
     border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.profile-pic {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgba(100, 181, 246, 0.3);
+    box-shadow: 0 0 20px rgba(100, 181, 246, 0.15), 0 0 40px rgba(100, 181, 246, 0.05);
+    flex-shrink: 0;
+}
+
 .header h1 {
     font-size: 3.5rem;
     font-weight: 800;
@@ -394,6 +410,16 @@ a:hover {
         text-align: center;
         padding: 60px 6%;
         min-height: 50vh;
+    }
+
+    .header-left {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-pic {
+        width: 100px;
+        height: 100px;
     }
 
     .header h1 {
