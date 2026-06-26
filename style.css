@@ -109,8 +109,25 @@ a:hover {
     color: #64b5f6;
 }
 
-.contact-info p:last-child {
+.contact-info .contact-address {
     color: #555d6e;
+}
+
+.cv-download {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 6px 16px;
+    border: 1px solid rgba(100, 181, 246, 0.3);
+    border-radius: 6px;
+    color: #64b5f6 !important;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.cv-download:hover {
+    background: rgba(100, 181, 246, 0.1);
+    border-color: rgba(100, 181, 246, 0.5);
 }
 
 /* ── Sections ────────────────────────────────────────── */
@@ -225,6 +242,20 @@ a:hover {
 
 .experience-item:last-child {
     margin-bottom: 0;
+}
+
+.experience-role {
+    margin-top: 16px;
+}
+
+.experience-role:first-of-type {
+    margin-top: 10px;
+}
+
+.experience-role + .experience-role {
+    margin-top: 28px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .experience-title {
@@ -354,19 +385,38 @@ a:hover {
     margin-bottom: 0;
 }
 
-/* ── Education ───────────────────────────────────────── */
-.languages {
+/* ── Education & Languages ───────────────────────────── */
+.education {
     background: #0a0a0f;
 }
 
-.languages p {
+.education p,
+.education-item p {
     font-size: 0.95rem;
     color: #8892a4;
     margin-bottom: 4px;
 }
 
-.languages b {
+.education b,
+.education-item b {
     color: #ffffff;
+}
+
+.education-item {
+    margin-bottom: 24px;
+}
+
+.education-item:last-of-type {
+    margin-bottom: 0;
+}
+
+.education-detail {
+    font-size: 0.88rem !important;
+    color: #555d6e !important;
+}
+
+.subsection-heading {
+    margin-top: 48px;
 }
 
 /* ── Print Styles ────────────────────────────────────── */
@@ -397,7 +447,8 @@ a:hover {
     .project-description,
     .project-tech,
     .project-role,
-    .languages p {
+    .education p,
+    .education-item p {
         color: #444;
     }
 

@@ -1,113 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish Patiyal – Consultant, Principal Engineer & Technical Architect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
 <div class="container">
     <header class="section header">
-        <div>
-            <h1>Manish Patiyal</h1>
-            <p class="tag-line">Mobile App Architect | Android & React Native | Team Lead</p>
+        <div class="header-left">
+            <div class="profile-pic-wrapper">
+                <img src="profile.jpg" alt="Manish Patiyal" class="profile-pic">
+            </div>
+            <div>
+                <h1>Manish Patiyal</h1>
+                <p class="tag-line">Consultant, Principal Engineer & Technical Architect – 12+ Years</p>
+            </div>
         </div>
         <div class="contact-info">
-            <p><a href="https://github.com/yourgithub" target="_blank">github.com/yourgithub</a></p>
+            <p><a href="https://manishpatiyal27.github.io/" target="_blank">manishpatiyal27.github.io</a></p>
             <p><a href="mailto:manishpatiyal27@gmail.com">manishpatiyal27@gmail.com</a></p>
             <p><a href="tel:+918263081437">+91 82630 81437</a></p>
-            <p>Sundernagar, Himachal Pradesh (Remote)</p>
+            <p>Chandigarh, India</p>
         </div>
     </header>
-    <section class="section experience">
-        <h2>Experience</h2>
-        <div class="experience-item">
-            <span class="experience-title">Team Lead – Mobile Applications</span> ·
-            <span class="experience-company">VT Netzwelt Pvt Ltd</span> ·
-            <span class="experience-year">2019 – Present</span>
-            <p>
-                Leading mobile app development (React Native & Android) for international clients.
-                Responsible for architecture decisions, performance optimization,
-                code reviews, sprint planning, and mentoring developers.
-            </p>
-            <p>
-                Delivered scalable production-grade apps with focus on maintainable
-                architecture (MVVM, Clean Architecture), API integrations,
-                payment gateways, push notifications, analytics, and CI/CD pipelines.
-            </p>
-        </div>
-        <div class="experience-item">
-            <span class="experience-title">Senior Android Developer</span> ·
-            <span class="experience-company">Product-Based Company, Noida</span> ·
-            <span class="experience-year">2016 – 2019</span>
-            <p>
-                Developed and maintained high-traffic Android applications.
-                Worked on performance tuning, memory optimization,
-                offline storage (Room/SQLite), REST APIs,
-                and release management on Play Store.
-            </p>
-            <p>
-                Collaborated closely with backend, QA and product teams to deliver
-                stable feature releases.
-            </p>
-        </div>
-        <div class="experience-item">
-            <span class="experience-title">Android Developer</span> ·
-            <span class="experience-company">Early Career Experience</span> ·
-            <span class="experience-year">2013 – 2016</span>
-            <p>
-                Built native Android applications using Java.
-                Implemented core features, UI components,
-                and third-party SDK integrations.
-            </p>
-        </div>
-    </section>
+
+    <!-- SUMMARY -->
     <section class="section summary">
         <p>
-            Results-driven <b>Mobile App Engineer</b> with 12+ years of experience
-            in Android and cross-platform development using <b>React Native</b>.
+            <b>Principal Engineer & Technical Architect</b> with 12+ years of experience
+            architecting and delivering high-scale production mobile applications using
+            <b>React Native</b> and <b>Android (Kotlin/Java)</b>.
         </p>
         <p>
-            Strong in <b>architecture design</b>, performance optimization,
-            scalable mobile systems, and leading distributed teams.
+            Strong foundation in <b>clean architecture, scalable system design, performance optimization,
+            and maintainable code practices</b>, combined with hands-on expertise in
+            <b>Agile delivery, sprint planning, estimation, stakeholder management, and budgeting</b>.
         </p>
         <p>
-            Passionate about building robust mobile products that deliver
-            real business impact.
+            Experienced in leading <b>cross-functional and distributed teams</b>, owning end-to-end
+            product delivery from requirement analysis to production release, while ensuring
+            quality, scalability, and on-time execution within budget constraints.
         </p>
     </section>
+
+    <!-- SKILLS -->
     <section class="section skills">
         <h2>Technical Skills</h2>
+
+        <h3>React Native & Core</h3>
         <div class="skills-list">
-            <span class="skill">Java</span>
-            <span class="skill">Kotlin</span>
-            <span class="skill">Android SDK</span>
-            <span class="skill">React Native</span>
-            <span class="skill">JavaScript / TypeScript</span>
-            <span class="skill">Redux / Context API</span>
-            <span class="skill">MVVM</span>
+            <span class="skill">React Native (CLI & Expo)</span>
+            <span class="skill">React Hooks</span>
+            <span class="skill">TypeScript / JavaScript</span>
+            <span class="skill">JSX / Virtual DOM</span>
+            <span class="skill">React Navigation</span>
+            <span class="skill">Hermes Engine</span>
+        </div>
+
+        <h3>Native & Bridge</h3>
+        <div class="skills-list">
+            <span class="skill">Native Modules (Android/iOS Bridges)</span>
+            <span class="skill">Turbo Modules & JSI</span>
+            <span class="skill">Android Studio & Xcode</span>
+            <span class="skill">Kotlin / Java</span>
+        </div>
+
+        <h3>State Management & Storage</h3>
+        <div class="skills-list">
+            <span class="skill">Redux Toolkit Query</span>
+            <span class="skill">Context + Reducers</span>
+            <span class="skill">Global State Management</span>
+            <span class="skill">AsyncStorage / SecureStore</span>
+            <span class="skill">Persistent State Handling</span>
+        </div>
+
+        <h3>Integrations & Services</h3>
+        <div class="skills-list">
+            <span class="skill">Firebase (FCM, Analytics, Crashlytics)</span>
+            <span class="skill">Push Notifications (OneSignal, Pusher)</span>
+            <span class="skill">Google APIs & Google Ads</span>
+            <span class="skill">Meta APIs</span>
+            <span class="skill">Maps & Location</span>
+            <span class="skill">Socket.io</span>
+            <span class="skill">BLE Module</span>
+            <span class="skill">Calendars</span>
+            <span class="skill">App Center</span>
+        </div>
+
+        <h3>Architecture & Tooling</h3>
+        <div class="skills-list">
             <span class="skill">Clean Architecture</span>
-            <span class="skill">REST APIs</span>
-            <span class="skill">Firebase</span>
-            <span class="skill">Push Notifications</span>
-            <span class="skill">Payment Gateway Integration</span>
-            <span class="skill">CI/CD</span>
+            <span class="skill">MVVM / MVP</span>
+            <span class="skill">Memory Optimization / Profiling</span>
+            <span class="skill">CI/CD (Bitrise)</span>
             <span class="skill">Git</span>
-            <span class="skill">App Performance Optimization</span>
-            <span class="skill">Agile / Scrum</span>
+            <span class="skill">Figma / Zeplin</span>
+        </div>
+
+        <h3>Leadership & Project Management</h3>
+        <div class="skills-list">
+            <span class="skill">Team Leadership & Mentoring</span>
+            <span class="skill">Sprint Planning & Agile/Scrum</span>
+            <span class="skill">Project Estimation & Invoicing</span>
+            <span class="skill">Resource Allocation & Capacity Planning</span>
+            <span class="skill">Client Communication & Stakeholder Management</span>
+            <span class="skill">Risk Assessment & Mitigation</span>
+            <span class="skill">Code Reviews & Quality Assurance</span>
+            <span class="skill">Jira / Slack / MS Teams</span>
         </div>
     </section>
-    <section class="section open-source">
-        <h2>Key Contributions</h2>
-        <p>
-            • Led development of scalable React Native apps used by global clients.
-        </p>
-        <p>
-            • Improved app performance by optimizing rendering cycles, reducing
-            memory leaks and minimizing bundle size.
-        </p>
-        <p>
-            • Mentored junior developers and established best practices for
-            code quality and architecture standards.
-        </p>
+
+    <!-- EXPERIENCE -->
+    <section class="section experience">
+        <h2>Experience</h2>
+
+        <div class="experience-item">
+            <span class="experience-title">Senior Principal Engineer & Technical Project Manager</span> ·
+            <span class="experience-company">VT Netzwelt Pvt Ltd</span> ·
+            <span class="experience-year">2019 – Present</span>
+            <ul>
+                <li>Led and managed a team of mobile developers across multiple concurrent projects, handling task delegation, sprint planning, and daily standups using Agile/Scrum methodologies.</li>
+                <li>Owned end-to-end project lifecycle — from requirement gathering and effort estimation to milestone tracking, delivery, and post-release support.</li>
+                <li>Managed project invoicing, budget tracking, and resource allocation to ensure on-time, within-budget delivery for international clients.</li>
+                <li>Served as the primary client-facing point of contact, conducting regular status updates, demos, and roadmap discussions with stakeholders.</li>
+                <li>Performed risk assessment and mitigation planning, proactively identifying blockers and realigning team priorities to meet deadlines.</li>
+                <li>Built large-scale production apps using Android (Kotlin/Java), React Native, and hybrid frameworks with architecture patterns (MVVM, MVP, Clean Architecture).</li>
+                <li>Set up CI/CD pipelines using Bitrise and Git-based workflows for continuous integration, delivery, and automation.</li>
+                <li>Integrated AI/ML, Augmented Reality, and Computer Vision SDKs (Scandit, Microblink) for intelligent, data-driven mobile solutions.</li>
+                <li>Developed offline-first applications with secure data sync and real-time communication systems using REST API, WebSocket, and MQTT.</li>
+                <li>Managed App Store and Play Store publications for apps with 1M+ downloads and high reliability.</li>
+                <li>Conducted technical seminars, mentoring sessions, and code reviews to elevate development standards and grow junior engineers into senior roles.</li>
+                <li>Onboarded new team members, defined coding standards, and maintained internal documentation to streamline knowledge transfer.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <span class="experience-title">Senior Android Developer</span> ·
+            <span class="experience-company">Idemia, Noida</span> ·
+            <span class="experience-year">2016 – 2019</span>
+            <ul>
+                <li>Developed and maintained high-traffic Android applications with performance tuning, memory optimization, and offline storage (Room/SQLite).</li>
+                <li>Managed REST API integrations and release management on the Play Store.</li>
+                <li>Collaborated closely with backend, QA, and product teams to deliver stable feature releases.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <span class="experience-title">Android Developer</span> ·
+            <span class="experience-company">Early Career</span> ·
+            <span class="experience-year">2013 – 2016</span>
+            <ul>
+                <li>Built native Android applications using Java with core features, UI components, and third-party SDK integrations.</li>
+            </ul>
+        </div>
     </section>
+
+    <!-- WORKS / PROJECTS -->
+    <section class="section projects">
+        <h2>Key Projects</h2>
+
+        <div class="project-item">
+            <div class="project-header">
+                <span class="project-number">01</span>
+                <span class="project-name">Market Research App</span>
+            </div>
+            <p class="project-description">
+                With over 5L+ active users on Play Store, this app holds a leading market share in consumer
+                behaviour research and rewards. It collects purchasing patterns from panelists across Europe
+                and the Middle East.
+            </p>
+            <div class="project-tech">
+                <b>Tech:</b> React Native, Android, iOS, Firebase Notifications, In-App Updates,
+                Barcode Scanning, Image Processing, Receipt Scanning
+            </div>
+            <div class="project-role">
+                <b>Role:</b> As Lead Developer and project point-of-contact, managed sprint planning,
+                effort estimation, and invoicing while solving daily technical challenges. Translated
+                client expectations into user-friendly solutions leveraging React Native and native
+                Android development. Coordinated a cross-functional team across 8 years of active development.
+            </div>
+        </div>
+
+        <div class="project-item">
+            <div class="project-header">
+                <span class="project-number">02</span>
+                <span class="project-name">SCADA Monitoring Mobile/Web Application</span>
+            </div>
+            <p class="project-description">
+                Cross-platform mobile application for field agents and administrators in oil refineries
+                to view, update, and manage SCADA data in real-time — part of a unified ecosystem designed
+                to modernize on-site data handling and improve operational efficiency.
+            </p>
+            <div class="project-tech">
+                <b>Tech:</b> React Native, Node.js, REST APIs, MQTT, Secure Socket Communication,
+                Redux Toolkit, Firebase Notifications, Biometric Authentication, Charts, JWT & Cookie
+                Management, WebView, Location Services
+            </div>
+            <div class="project-role">
+                <b>Role:</b> Led mobile development for Android and iOS while managing project timelines,
+                resource planning, and client deliverables. Integrated with PLC controllers through
+                Plug-n-Play communication links for real-time data transmission. Built interactive
+                dashboards, implemented offline data sync and secure authentication for low-connectivity
+                areas. Coordinated with backend and web teams to deliver a unified cross-platform ecosystem.
+            </div>
+        </div>
+
+        <div class="project-item">
+            <div class="project-header">
+                <span class="project-number">03</span>
+                <span class="project-name">Offers & Brochure App</span>
+            </div>
+            <p class="project-description">
+                Shopping app for German users providing access to current brochures, promotions, and catalogs
+                from a wide range of retailers. Supports eco-friendly digital shopping with deal comparison
+                and trip planning. Launched across multiple European countries with region-specific flavours.
+            </p>
+            <div class="project-tech">
+                <b>Tech:</b> Android (Kotlin/Java), MVP, MVVM, Retrofit, Google Maps, FCM, Fresco
+            </div>
+            <div class="project-role">
+                <b>Role:</b> Led end-to-end Android development and managed multi-variant deployments across
+                European Play Stores with region-based configurations and language localization. Handled
+                effort estimation, release scheduling, and stakeholder reporting. Integrated personalized
+                notifications, real-time offer updates, and map-based store navigation. Ensured quality
+                through modular architecture, optimized CI/CD pipelines, and continuous feedback loops.
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
     <section class="section languages">
         <h2>Education</h2>
-        <p>B.Tech (Computer Science) – 2013 Passout</p>
+        <p><b>B.Tech (Computer Science)</b> – 2013</p>
         <p>CGPA: 8.75</p>
     </section>
 </div>
 </body>
+</html>
