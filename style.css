@@ -349,6 +349,15 @@ a:hover {
     color: #ffffff;
 }
 
+.project-name a {
+    color: #ffffff;
+    transition: color 0.2s;
+}
+
+.project-name a:hover {
+    color: #64b5f6;
+}
+
 .project-description {
     grid-column: 1 / -1;
     font-size: 0.95rem;
